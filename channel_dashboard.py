@@ -132,7 +132,7 @@ stats_text = f"""
 🖼️ *الصور في المكتبة:* {self.media_manager.list_contents()['images_count']}
 📄 *المنشورات:* {self.media_manager.list_contents()['posts_count']}
 """
-            """
+"""
             
             keyboard = [[InlineKeyboardButton("🔙 رجوع", callback_data="back")]]
             reply_markup = InlineKeyboardMarkup(keyboard)
